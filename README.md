@@ -9,7 +9,7 @@ Sentiment analysis can be interpreted as a process that automates the mining of 
 
 As a part of Natural Language Processing, algorithms like SVM, Naive Bayes is used in sentences to predict the polarity of that sentence. Sentiment analysis of Twitter data may also depend upon sentence level and document level. Sentiment Analysis for Twitter has a number of applications in Business analysis, political analysis, public actions, etc.
 
-## How we Developed
+## How I Developed
 For data collection, as in our case, the data is the tweets, so we scraped the actual tweets based on some keywords using Twitter Developer APIs. These APIs provide us the support of fetching tweets, searching tweets, retweeting, and various other functionalities which are present in Twitter. The scraped data is further stored in a CSV file where the first column represents the scraped tweet and the second column represents the username of that particular tweet which will further help us to send a message to a particular user if he tweeted some negative tweets.
 
 <p align="center">
