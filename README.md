@@ -4,12 +4,12 @@ The rise of social media leads to tremendous interest among internet users nowad
 
 Twitter sentiment or opinion expressed through it may be positive, negative, or neutral. Methods like, positive and negative words to find on the sentence are however inappropriate, because the flavor of the text block depends a lot on the context.
 
-### What is Sentimental Analysis
+### :brain:  What is Sentimental Analysis
 Sentiment analysis can be interpreted as a process that automates the mining of attitudes, opinions, views, frame of mind, and emotions from text, speech, tweets, and database sources processing through Natural Language Processing (NLP). Sentiment analysis involves opinions text to be classified as ”positive” or ”negative” or ”neutral”. It’s also referred to as subjectivity analysis, opinion mining, and appraisal extraction. 
 
 As a part of Natural Language Processing, algorithms like SVM, Naive Bayes is used in sentences to predict the polarity of that sentence. Sentiment analysis of Twitter data may also depend upon sentence level and document level. Sentiment Analysis for Twitter has a number of applications in Business analysis, political analysis, public actions, etc.
 
-## How I Developed
+## :wrench: How I Developed
 For data collection, as in our case, the data is the tweets, so we scraped the actual tweets based on some keywords using Twitter Developer APIs. These APIs provide us the support of fetching tweets, searching tweets, retweeting, and various other functionalities which are present in Twitter. The scraped data is further stored in a CSV file where the first column represents the scraped tweet and the second column represents the username of that particular tweet which will further help us to send a message to a particular user if he tweeted some negative tweets.
 
 <p align="center">
@@ -38,8 +38,8 @@ Further, the tweets are upsampled to make an equal number of data under both cla
 </p>
 <p align="center">
 
-### Outputs
-We performed it on various queries on Twitter like - Fake news, movie reviews, religious, and political topics. We got following outputs -
+### :star: Outputs
+I performed it on various queries on Twitter like - Fake news, movie reviews, religious, and political topics. Got following outputs -
 
 <p align="center">
   <img height = 200 src="https://i.imgur.com/GflqQnB.png">
