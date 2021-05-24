@@ -21,7 +21,7 @@ api = tweepy.API(auth,wait_on_rate_limit=True)
  
 csvFile = open('scraped_data.csv', 'w')
 csvWriter = csv.writer(csvFile)
-search_words = "covid19"      # enter your words
+search_words = "violence"      # enter your words
 new_search = search_words 
 
 #Scraped data from twitter to CSV(Tweet, username) 
